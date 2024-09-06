@@ -1,0 +1,453 @@
+@font-face {
+	font-family: 'Manrope Medium'; 
+	src: url(fonts/Windows/Manrope-Medium.ttf); 
+}
+@font-face {
+	font-family: 'Manrope Regular'; 
+	src: url(fonts/Windows/Manrope-Regular.ttf); 
+}
+@font-face {
+	font-family: 'Prata'; 
+	src: url(fonts/Windows/Prata-Regular.ttf); 
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EFF0EB;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+}
+.nav {
+    display: flex;
+    gap: 25px;
+}
+.nav a {
+    text-decoration: none;
+    color: #3B3B3B;
+    font-family: 'Manrope Medium'; 
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.icons {
+    display: flex;
+    gap: 25px;
+}
+.icons a {
+    text-decoration: none;
+}
+
+.main {
+    background-image: url("img/main.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main h1 {
+    font-family: 'Prata';    
+    font-size: 35px;
+    color: #3B3B3B;
+}
+.main p {
+    font-family: 'Manrope Medium';    
+    font-size: 15px;
+    color: #3B3B3B;
+    margin: 20px 0 50px 0;
+}
+.main button a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Manrope Medium';    
+    font-size: 15px;
+    color: #3B3B3B;
+}
+.main button {
+    border: 1px solid #3B3B3B;
+    background-color: transparent;
+    padding: 12px 20px;
+}
+.textnafoto {
+    margin: 0 120px;
+}
+
+.bestsellers {
+    margin: 70px 100px;
+}
+.bestseller {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bestseller h2 {
+    font-family: 'Prata';    
+    font-size: 25px;
+    color: #3B3B3B;
+}
+.bestseller .knopkilr {
+    display: flex;
+    gap: 25px;
+}
+.tovars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tovar h4 {
+    font-family: 'Prata';
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0 0 0;
+    color: #3B3B3B;
+}
+.tovar p {
+    font-family: 'Manrope Medium'; 
+    font-size: 13px;
+    text-align: center;
+    padding: 5px 0 0 0;
+    color: #3B3B3B;
+}
+.tovar .price {
+    font-family: 'Prata';
+    font-size: 18px;
+    text-align: center;
+    padding: 18px;
+    color: #3B3B3B;
+}
+
+.product {
+    background-image: url("img/lead.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product h1 {
+    font-family: 'Prata';    
+    font-size: 30px;
+    color: #3B3B3B;
+}
+.product p {
+    font-family: 'Manrope Medium';    
+    font-size: 12px;
+    color: #3B3B3B;
+    margin: 20px 0 50px 0;
+}
+.product button a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Manrope Medium';    
+    font-size: 12px;
+    color: #3B3B3B;
+}
+.product button {
+    border: 1px solid #3B3B3B;
+    background-color: transparent;
+    padding: 12px 20px;
+}
+.textnafoto {
+    margin: 0 120px;
+}
+
+
+.cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.opisanie {
+    margin: 0 auto 0 30px;
+}
+.nazotz {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.otziv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 0 150px;
+}
+.nazvanie h4 {
+    font-family: 'Prata';    
+    font-size: 25px;
+    color: #3B3B3B;
+}
+.otziv p {
+    font-family: 'Manrope Medium';
+    font-size: 14px;
+    color: #3B3B3B;
+    margin-left: 10px;
+}
+.cena h4 {
+    font-family: 'Prata';    
+    font-size: 25px;
+    color: #3B3B3B;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.opisanie p {
+    font-family: 'Manrope Medium';    
+    font-size: 13px;
+    color: #3B3B3B;
+}
+.opisanie button {
+    border: 1px solid #3B3B3B;
+    background-color: transparent;
+    padding: 12px 20px;
+    width: 100%;
+}
+.opisanie button a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Manrope Medium';    
+    font-size: 12px;
+    color: #3B3B3B;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 25px 0;
+}
+tr {
+    border-top: 1px solid #3B3B3B;
+}
+tr:last-child {
+    border-bottom: 1px solid #3B3B3B;
+}
+td {
+    border-left: 1px solid #3B3B3B;
+    border-right: 1px solid #3B3B3B;
+    padding: 10px;
+    width: 50%;
+}
+td:first-child {
+    border-left: none;
+}
+td:last-child {
+    border-right: none;
+}
+
+.small-circle {
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+}
+.small-circle-svetlo {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(195, 195, 195);
+    border-radius: 50%;
+}
+.caracter {
+    margin: 10px 5px;
+}
+.density {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7px;
+}
+.circle {
+    display: flex;
+    gap: 7px;
+}
+.density p {
+    font-family: 'Manrope Medium';  
+}
+.aroma p {
+    font-family: 'Manrope Medium';  
+}
+.kartinki {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+.rabot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.ves {
+    display: flex;
+}
+.ves p {
+    font-family: 'Manrope Medium';
+}
+.ves h4 {
+    font-family: 'Manrope Medium';
+}
+.cifra {
+    margin-left: 15px;
+}
+.plus-minus {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 110px;
+}
+.abouttext h1 {
+    font-family: 'Prata';    
+    font-size: 30px;
+    color: #3B3B3B;
+    margin-bottom: 20px;
+}
+.abouttext p {
+    font-family: 'Manrope Medium';    
+    font-size: 12px;
+    color: #3B3B3B;
+    margin-top: 15px;
+}
+
+.advantages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 110px;
+    gap: 100px;
+}
+.info h4 {
+    font-family: 'Prata';    
+    font-size: 20px;
+    color: #3B3B3B;
+}
+.info p {
+    font-family: 'Manrope Medium';    
+    font-size: 12px;
+    color: #3B3B3B;
+}
+.info {
+    text-align: center;
+}
+
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 110px;
+}
+.levo h1 {
+    font-family: 'Prata';    
+    font-size: 30px;
+    color: #3B3B3B;
+    margin-bottom: 20px;
+}
+.levo p {
+    font-family: 'Manrope Medium';    
+    font-size: 12px;
+    color: #3B3B3B;
+}
+form {
+    margin-top: 30px;
+}
+.name {
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Manrope Medium';    
+    font-size: 12px;
+    color: #3B3B3B;
+}
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #3B3B3B;
+    background-color: transparent;
+    height: 40px;
+
+}
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+input[type="radio"] {
+    margin-right: 5px;
+    background: #3B3B3B;
+}
+.reg {
+    display: flex;
+    gap: 20px;
+}
+.reg label {
+    font-family: 'Manrope Medium';    
+    font-size: 14px;
+    color: #3B3B3B;
+}
+.politika {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+form button a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Manrope Medium';    
+    font-size: 15px;
+    color: #3B3B3B;
+}
+form button {
+    border: 1px solid #3B3B3B;
+    background-color: transparent;
+    padding: 12px 20px;
+    width: 100%;
+}
+
+
+footer {
+    background-color: #E5E4DF;
+    text-align: center;
+    padding: 50px 0;
+}
+.navfooter {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.navfooter a {
+    text-decoration: none;
+    color: #3B3B3B;
+    font-family: 'Manrope Medium'; 
+    text-transform: uppercase;
+    font-size: 11px;
+}
+.iconsfooter {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.iconsfooter a {
+    text-decoration: none;
+}
+footer p {
+    font-family: 'Manrope Medium';    
+    font-size: 10px;
+    color: #929292;
+    margin-bottom: 10px;
+}
